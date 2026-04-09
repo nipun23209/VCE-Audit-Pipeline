@@ -71,5 +71,4 @@ Download the Chest X-Ray dataset from Kaggle. Extract the downloaded archive and
 
 **3. Run the Pipeline:**
 Execute the scripts sequentially. For the primary dataset audit, run the master evaluation script:
-```bash
 python 06_batch_vce_evaluation.py
