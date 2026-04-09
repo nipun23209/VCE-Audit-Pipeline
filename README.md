@@ -65,3 +65,11 @@ This pipeline is highly modular, designed to run on resource-constrained hardwar
 git clone [https://github.com/nipun23209/VCE-Audit-Pipeline.git](https://github.com/nipun23209/VCE-Audit-Pipeline.git)
 cd VCE-Audit-Pipeline
 pip install torch torchvision transformers pillow pandas matplotlib seaborn accelerate bitsandbytes tqdm
+
+**2. Download the Dataset:**
+Download the Chest X-Ray dataset from Kaggle. Extract the downloaded archive and ensure the dataset folder is named `chest_xray/` and is placed directly in the root directory of this repository.
+
+**3. Run the Pipeline:**
+Execute the scripts sequentially. For the primary dataset audit, run the master evaluation script:
+```bash
+python 06_batch_vce_evaluation.py
